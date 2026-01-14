@@ -1,4 +1,6 @@
-<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->![](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Hi&textBg=true&rotate=0&desc=I'm%20BPPH&descSize=10&descAlign=0)
+<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->
+
+![](https://capsule-render.vercel.app/api?type=venom&height=300&color=gradient&text=Hi&textBg=true&rotate=0&desc=I'm%20BPPH&descSize=10&descAlign=0)
 
 # Hi there! I'm BigPotatoPizzaHey! 👋
 
@@ -58,8 +60,12 @@ You will know soon! (It's a lot)
 0. BPPH: 0
 
 <div align="left">
-  <img src="https://img.shields.io/badge/%F0%9F%94%BC%20Up!-6c74e8" />
-  <img src="https://img.shields.io/badge/%F0%9F%94%BD%20Down!-6c74e8" />
+  <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=up">
+    <img src="https://img.shields.io/badge/%F0%9F%94%BC%20Up!-6c74e8" />
+  </a>
+  <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=down">
+    <img src="https://img.shields.io/badge/%F0%9F%94%BD%20Down!-6c74e8" />
+  </a>
 </div>
 
 ---
