@@ -20,7 +20,7 @@ jobs:
       - name: Run
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ISSUE_ID: ${{ github.event.issue.id }}
+          # ISSUE_ID: ${{ github.event.issue.id }}
         run: uv run main.py
 
       - name: Commit changes
