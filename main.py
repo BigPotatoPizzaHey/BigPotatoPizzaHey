@@ -44,7 +44,7 @@ def main():
                    key=lambda x: x[1])[:5]
     scorers = ""
     for i, (scorer, clicks) in enumerate(top_5):
-        scorers += f"{i}. {scorer}: {clicks}"
+        scorers += f"{i}. {scorer}: {clicks}\n"
 
     template = template_file.read_text()
     readme_file.write_text("<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->\n\n" +
