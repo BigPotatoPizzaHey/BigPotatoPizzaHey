@@ -47,7 +47,7 @@ def main():
         scorers += f"{i}. {scorer}: {clicks}"
 
     template = template_file.read_text()
-    readme_file.write_text("<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->" +
+    readme_file.write_text("<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->\n\n" +
                            template.format(
         score=data["score"],
         recent_clickers=recent_clickers,
