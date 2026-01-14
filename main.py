@@ -20,7 +20,7 @@ def get_data() -> Schema:
     return json.load(data_file.open())
 
 def write_data(content: Schema) -> None:
-    json.dump(content, data_file.open("w"))
+    json.dump(content, data_file.open("w"), indent=3)
 
 def main():
     print("Starting...")
