@@ -71,4 +71,4 @@ Click the button to open an issue. Submit it, wait ~15s and the score will chang
 
 ---
 
-Thanks for visiting [f4075](https://github.com/f4075)'s profile! Hope you enjoyed it! 🚀
+Thanks for visiting my profile! Hope you enjoyed it! 🚀
