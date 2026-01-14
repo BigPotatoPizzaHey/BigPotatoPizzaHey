@@ -1,7 +1,9 @@
 {
-  "recent": [],
-  "score": 1,
-  "scorers": {
-    "BPPH": 1
-  }
+   "recent": [
+      "BPPH"
+   ],
+   "score": 0,
+   "scorers": {
+      "BPPH": 0
+   }
 }
