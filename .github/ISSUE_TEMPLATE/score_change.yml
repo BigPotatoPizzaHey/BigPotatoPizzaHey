@@ -2,3 +2,9 @@ name: Score Change
 description: Change the score
 title: "boop"
 labels: ["score"]
+body:
+  - type: input
+    id: change
+    attributes:
+      label: change
+      placeholder: aaa
