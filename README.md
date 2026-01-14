@@ -58,7 +58,9 @@ You will know soon! (It's a lot)
 
 #### Top clickers
 
-0. BPPH: 11. F4075: 0
+0. BPPH: 1
+1. F4075: 0
+
 
 <div align="left">
   <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=up">
