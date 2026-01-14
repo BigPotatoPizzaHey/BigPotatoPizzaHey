@@ -2,7 +2,7 @@ import os
 import json
 from pathlib import Path
 from typing import TypedDict
-from github import Github, Auth, ContentFile, Issue
+from github import Github, Auth, Issue
 
 token = os.environ["GH_TOKEN"]
 auth = Auth.Token(token)
