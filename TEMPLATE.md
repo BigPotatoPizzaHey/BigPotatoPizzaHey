@@ -57,8 +57,12 @@ You will know soon! (It's a lot)
 {top_clickers}
 
 <div align="left">
-  <img src="https://img.shields.io/badge/%F0%9F%94%BC%20Up!-6c74e8" />
-  <img src="https://img.shields.io/badge/%F0%9F%94%BD%20Down!-6c74e8" />
+  <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=up">
+    <img src="https://img.shields.io/badge/%F0%9F%94%BC%20Up!-6c74e8" />
+  </a>
+  <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=down">
+    <img src="https://img.shields.io/badge/%F0%9F%94%BD%20Down!-6c74e8" />
+  </a>
 </div>
 
 ---
