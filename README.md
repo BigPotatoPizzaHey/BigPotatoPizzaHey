@@ -48,7 +48,7 @@ You will know soon! (It's a lot)
 
 ## Score!
 
-### Score: `0`
+### Score: `1`
 
 #### Recent clickers
 
@@ -57,7 +57,7 @@ You will know soon! (It's a lot)
 
 #### Top clickers
 
-0. BPPH: 0
+0. BPPH: 1
 
 <div align="left">
   <a href="https://github.com/BigPotatoPizzaHey/BigPotatoPizzaHey/issues/new?template=score_change.yml&change=up">
