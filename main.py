@@ -9,9 +9,12 @@ auth = Auth.Token(token)
 gh = Github(auth=auth)
 
 data_file = Path("data.json")
+readme_file = Path("README.md")
+template_file = Path("TEMPLATE.md")
 class Schema(TypedDict):
     score: int 
     scorers: dict[str, int]
+    recent: list[str]
 
 def get_data() -> Schema:
     return json.load(data_file.open())
@@ -30,6 +33,28 @@ def main():
     ):
         resolve(issue)
 
+    # update readme
+    data = get_data()
+
+    recent_clickers = ""
+    for i, clicker in enumerate(data["recent"]):
+        recent_clickers += f"{i}. {clicker}\n"
+
+    top_5 = sorted(data["scorers"].items(), reverse=True, 
+                   key=lambda x: x[1])[:5]
+    scorers = ""
+    for i, (scorer, clicks) in enumerate(top_5):
+        scorers += f"{i}. {scorer}: {clicks}"
+
+    template = template_file.read_text()
+    readme_file.write_text("<!--NOTE: This readme is auto-generated! Edit TEMPLATE.md instead!-->" +
+                           template.format(
+        score=data["score"],
+        recent_clickers=recent_clickers,
+        top_clickers=scorers
+    ))
+
+
 def resolve(issue: Issue.Issue):
     body = issue.body.lower()
 
@@ -38,9 +63,14 @@ def resolve(issue: Issue.Issue):
     score_change = up - down
 
     username = issue.user.name if issue.user.name else ""
+
     data = get_data()
     data["score"] += score_change
     data["scorers"][username] = data["scorers"].get(username, 0) + score_change
+    if username not in data["recent"]:
+        data["recent"].insert(0, username)
+        data["recent"] = data["recent"][:5]
+
     write_data(data)
     
     issue.create_comment(f"""\
