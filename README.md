@@ -18,8 +18,6 @@ If you have any new suggestions, feel free to email me: [poo@gmail.com](https://
   <img width="50" alt="image" src="https://www.lazyvim.org/img/icon.svg" />
   <img width="50" alt="image" src="https://raw.githubusercontent.com/glzr-io/glazewm/refs/heads/main/resources/assets/icon.ico" />
   <img width="50" alt="image" src="https://github.githubassets.com/favicons/favicon.svg" />
-  <img width="50" alt="image" src="https://scratch.mit.edu/favicon.ico" />
-  <img width="50" alt="image" src="https://turbowarp.org/favicon.ico" />
   <img width="50" alt="image" src="https://flask.palletsprojects.com/en/stable/_static/flask-icon.svg" />
   <img width="50" alt="image" src="https://avatars.githubusercontent.com/u/14985020?s=200&v=4" />
   <img width="50" alt="image" src="https://requests.readthedocs.io/en/latest/_static/requests-sidebar.png" />
