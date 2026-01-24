@@ -46,7 +46,7 @@ You will know soon! (It's a lot)
 
 ## Score!
 
-### Score: `3`
+### Score: `2`
 
 #### Recent clickers
 
@@ -56,7 +56,7 @@ You will know soon! (It's a lot)
 
 #### Top clickers
 
-0. BPPH: 3
+0. BPPH: 2
 1. F4075: 0
 
 
